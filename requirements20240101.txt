@@ -12,7 +12,6 @@ pandas==1.5.2
 z3-solver==4.12.1.0
 scikit-learn==1.2.0
 ortools==9.5.2237
-# ac-library-python
 setuptools==66.0.0
 cppyy==2.4.1
 torch==1.13.1
@@ -42,3 +41,4 @@ polars==0.15.15
 lightgbm==3.3.1
 gmpy2==2.1.5
 numba==0.57.0
+# ac-library-python
