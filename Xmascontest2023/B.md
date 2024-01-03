@@ -70,13 +70,20 @@ s \alpha_z + t \beta_z + u \gamma_z \,| \, (s,t,u) \in \{0, 1\}^3
 M = \max (\{
 s \alpha_z + t \beta_z + u \gamma_z \,| \, (s,t,u) \in \{0, 1\}^3
 \}^2)\\
+```
 
+```math
 m = \min  (\{
 s \alpha_z + t \beta_z + u \gamma_z \,| \, (s,t,u) \in \{0, 1\}^3
 \}^2)
 ```
 
-
+である。これは自明に、
+```
+M = \max (\alpha_z, 0)  + \max (\beta_z, 0) + \max (\gamma_z, 0), 
+\,\, 
+m = \min (\alpha_z, 0)  + \min (\beta_z, 0) + \min (\gamma_z, 0)
+```
 
 引き続き、期待値についても分析する。高さ $`Z = M - m`$ の期待値についてだが、
 $`E[Z] = E[M - m] = E[M] - E[m]`$ だから、最大値と最小値のそれぞれについて期待値を計算しておけば良い。
