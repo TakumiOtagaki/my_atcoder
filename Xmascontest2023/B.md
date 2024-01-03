@@ -51,10 +51,11 @@ q_i \,| \, i = 1, 2, ..., 8
 また、$`i = 1, 2, ..., 8`$ に対して、$`\vec{a},\, \vec{b}, \, \vec{c}`$ を回転させた後のベクトル $`\vec{\alpha},\, \vec{\beta},\, \vec{\gamma}`$ を用いて、
 
 ```math
-\vec{q_i} = s_i \vec{\alpha} + t_i \vec{\beta} + u_i \vec{\gamma} \quad \text{where } (s_i, t_i, u_i)　\in [0, 1]^3
+\vec{q_i} = s_i \vec{\alpha} + t_i \vec{\beta} + u_i \vec{\gamma} \quad \text{where} (s_i, t_i, u_i)　\in \{0, 1\}^3
 ```
 
-
+が成立する。
+このことから、
 
 
 
