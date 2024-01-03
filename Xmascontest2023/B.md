@@ -1,7 +1,7 @@
 # B - Beautiful Rotation
 https://atcoder.jp/contests/xmascon23/tasks/xmascon23_b
 
-# 問題
+## 問題
 平行六面体をある点を中心にランダムな角度だけ回転させた時の $`z`$ 方向のその図形の最大値と最小値の差 $Z$ の期待値を求める。
 単位球面ベクトル $`\vec{u}`$ をランダムに選択し、 $`\vec{v} = (0, 0, 1)^T \times \vec{u}`$ を定める。
 続いて、
@@ -12,7 +12,14 @@ https://atcoder.jp/contests/xmascon23/tasks/xmascon23_b
 $`\vec{0},\, \vec{a},\, \vec{b},\, \vec{c},\, \vec{a}+\vec{b},\, \vec{b}+\vec{c},\, \vec{c}+\vec{a},\, \vec{a}+\vec{b}+\vec{c}`$ の８点で定められる。
 この問題では、$`\vec{a} = (A, B, C)^T, \, \vec{b} = (D, E, F)^T, \, \vec{c} = (G, H, I)^T`$ となっている。
 
-# 考えてみる
+
+## アイデア
+
+八つの頂点をそれぞれ $`p_1, p_2, ..., p_8`$ とする
+ランダム回転の結果、$`p_i`$が $`q_i`$ に移動したとする（$`i \in \{1, 2, ..., 8\}`$）。
+
+すると、
+
 
 
 
