@@ -10,5 +10,9 @@ https://atcoder.jp/contests/xmascon23/tasks/xmascon23_b
 
 平行六面体は三つの並行ではない位置ベクトル $`\vec{a}, \vec{b}, \vec{c}`$ （起点 $`(0, 0, 0)`$）を用いて、
 $`\vec{0},\, \vec{a},\, \vec{b},\, \vec{c},\, \vec{a}+\vec{b},\, \vec{b}+\vec{c},\, \vec{c}+\vec{a},\, \vec{a}+\vec{b}+\vec{c}`$ の８点で定められる。
+この問題では、$`\vec{a} = (A, B, C)^T, \, \vec{b} = (D, E, F)^T, \, \vec{c} = (G, H, I)^T`$ となっている。
+
+# 考えてみる
+
 
 
