@@ -60,7 +60,7 @@ q_i \,| \, i = 1, 2, ..., 8
 このことから、
 ```math
 (M, m) \in \{
-s \alpha_z + t \beta_z + u \gamma_z \,| \, (s,t,u) \in \{0, 1\}
+s \alpha_z + t \beta_z + u \gamma_z \,| \, (s,t,u) \in \{0, 1\}^3
 \}^2
 ```
 
