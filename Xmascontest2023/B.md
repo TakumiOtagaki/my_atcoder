@@ -79,7 +79,7 @@ s \alpha_z + t \beta_z + u \gamma_z \,| \, (s,t,u) \in \{0, 1\}^3
 ```
 
 である。これは自明に、
-```
+```math
 M = \max (\alpha_z, 0)  + \max (\beta_z, 0) + \max (\gamma_z, 0), 
 \,\, 
 m = \min (\alpha_z, 0)  + \min (\beta_z, 0) + \min (\gamma_z, 0)
