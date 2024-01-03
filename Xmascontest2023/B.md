@@ -104,15 +104,19 @@ Z
 ```math
 \begin{align}
 E[|\alpha_z|]
-& = \int_0^{\pi} |\alpha| |\sin \theta| d\theta \\
+& = \int_0^{\pi} |\alpha| |\sin \theta| d\theta  / \int_0^{2\pi} d\theta
 & = |\alpha| \int_0^{\pi} |\sin \theta| d\theta \\
 & = |\alpha| \int_0^{\pi} \sin \theta  d\theta \\
 & = |\alpha| [-cos\theta]_0^{\pi}\\
-& = |\alpha| 
+& = 2|\alpha| 
 \end{align}
 ```
 
+同様に、
+```math
+E[|\beta_z|] = 2 | \beta
 
+```
 
 
 
