@@ -9,6 +9,6 @@ https://atcoder.jp/contests/xmascon23/tasks/xmascon23_b
 最後に、原点と $`\vec{u}`$ を結ぶ直線を回転軸として， $`[0,2π)`$ から一様に選んだ角度ぶん回転させる。
 
 平行六面体は三つの並行ではない位置ベクトル $`\vec{a}, \vec{b}, \vec{c}`$ （起点 $`(0, 0, 0)`$）を用いて、
-$`\vec{0}, \vec{a}, \vec{b}, \vec{c}, \vec{a}+\vec{b}, \vec{b}+\vec{c}, \vec{c}+\vec{a}, \vec{a}+\vec{b}+\vec{c}`$ の８点で定められる。
+$`\vec{0},\, \vec{a},\, \vec{b},\, \vec{c},\, \vec{a}+\vec{b},\, \vec{b}+\vec{c},\, \vec{c}+\vec{a},\, \vec{a}+\vec{b}+\vec{c}`$ の８点で定められる。
 
 
