@@ -107,8 +107,9 @@ E[|alpha_z|]
 & = \int_0^{2\pi} |\,|\alpha| \sin{\theta} \,| d\theta \\
 & = \int_0^{2\pi} |\alpha| |\sin \theta| d\theta \\
 & = |\alpha| \int_0^{2\pi} |\sin \theta| d\theta \\
-& = |\alpha| 2 \int_0^{\pi}  sin\theta  d\theta \\
-& = |\alpha| 2 [-cos\theta]_0^{\pi}
+& = 2|\alpha| \int_0^{\pi}  sin\theta  d\theta \\
+& = 2|\alpha| [-cos\theta]_0^{\pi} \\
+& = 2 |\alpha|
 \end{align}
 ```
 
