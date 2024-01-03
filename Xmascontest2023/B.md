@@ -84,9 +84,19 @@ M = \max (\alpha_z, 0)  + \max (\beta_z, 0) + \max (\gamma_z, 0),
 \,\, 
 m = \min (\alpha_z, 0)  + \min (\beta_z, 0) + \min (\gamma_z, 0)
 ```
+と書き換えることができる。よって高さ $`Z`$ は、
 
-引き続き、期待値についても分析する。高さ $`Z = M - m`$ の期待値についてだが、
-$`E[Z] = E[M - m] = E[M] - E[m]`$ だから、最大値と最小値のそれぞれについて期待値を計算しておけば良い。
+```math
+\begin{align}
+Z 
+& = M - m \\
+& = (\max (\alpha_z, 0)  + \max (\beta_z, 0) + \max (\gamma_z, 0)) -  (\min (\alpha_z, 0)  + \min (\beta_z, 0) + \min (\gamma_z, 0)) \\
+& = (\max (\alpha_z, 0) - \min (\alpha_z, 0))  + (\max (\beta_z, 0) - \min (\beta_z, 0)) + (\max (\gamma_z, 0) - \min (\alpha_z, 0))
+& = | \alpha_z | + |\beta_z| + |\gamma_z|
+\end{align}
+```
+
+となる。
 
 
 
