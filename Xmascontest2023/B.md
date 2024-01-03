@@ -69,7 +69,7 @@ s \alpha_z + t \beta_z + u \gamma_z \,| \, (s,t,u) \in \{0, 1\}^3
 ```math
 M = \max (\{
 s \alpha_z + t \beta_z + u \gamma_z \,| \, (s,t,u) \in \{0, 1\}^3
-\}^2)
+\}^2)\\
 
 m = \min  (\{
 s \alpha_z + t \beta_z + u \gamma_z \,| \, (s,t,u) \in \{0, 1\}^3
