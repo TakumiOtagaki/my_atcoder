@@ -91,7 +91,7 @@ m = \min (\alpha_z, 0)  + \min (\beta_z, 0) + \min (\gamma_z, 0)
 Z 
 & = M - m \\
 & = (\max (\alpha_z, 0)  + \max (\beta_z, 0) + \max (\gamma_z, 0)) -  (\min (\alpha_z, 0)  + \min (\beta_z, 0) + \min (\gamma_z, 0)) \\
-& = (\max (\alpha_z, 0) - \min (\alpha_z, 0))  + (\max (\beta_z, 0) - \min (\beta_z, 0)) + (\max (\gamma_z, 0) - \min (\gamma_z, 0))
+& = (\max (\alpha_z, 0) - \min (\alpha_z, 0))  + (\max (\beta_z, 0) - \min (\beta_z, 0)) + (\max (\gamma_z, 0) - \min (\gamma_z, 0)) \\
 & = | \alpha_z | + |\beta_z| + |\gamma_z|
 \end{align}
 ```
