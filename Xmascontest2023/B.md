@@ -103,9 +103,10 @@ Z
 そうすると、$`z`$ 座標は $`[0, |\alpha|]`$ 区間を一様に分布する。従って期待値は、$`\dfrac{1}{2} |\alpha|`$ となる。
 同様に、
 ```math
-E[|\beta_z|] = \dfrac{1}{2} |\beta|
-E[|\gamma_z|] = \dfrac{1}{2} |\gamma|
-
+\begin{align}
+E[|\beta_z|] &= \dfrac{1}{2} |\beta| \\
+E[|\gamma_z|] &= \dfrac{1}{2} |\gamma|
+\end{align}
 ```
 
 
