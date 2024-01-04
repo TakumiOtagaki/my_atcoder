@@ -115,7 +115,12 @@ E[|\gamma_z|] &= \dfrac{1}{2} |\gamma|
 \begin{align}
 E[Z]
 & = \dfrac{1}{2} |\alpha| + \dfrac{1}{2} |\beta| + \dfrac{1}{2} |\gamma| \\
-& = \dfrac{1}{2} ( |\alpha| + |\beta| + |\gamma| )
+& = \dfrac{1}{2} ( |\alpha| + |\beta| + |\gamma| ) \\
+& = \dfrac{1}{2} \left(
+\sqrt{A^2 + B^2 + C^2}
++ \sqrt{D^2 + E^2 + F^2}
++ \sqrt{G^2 + H^2 + I^2}
+\right)
 \end{align}
 ```
 
