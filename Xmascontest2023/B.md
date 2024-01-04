@@ -114,7 +114,7 @@ E[|\gamma_z|] &= \dfrac{1}{2} |\gamma|
 ```math
 \begin{align}
 E[Z]
-& = \dfrac{1}{2} |\alpha| + \dfrac{1}{2} |\beta| + \dfrac{1}{2} |\gamma|
+& = \dfrac{1}{2} |\alpha| + \dfrac{1}{2} |\beta| + \dfrac{1}{2} |\gamma| \\
 & = \dfrac{1}{2} ( |\alpha| + |\beta| + |\gamma| )
 \end{align}
 ```
