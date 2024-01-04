@@ -100,21 +100,11 @@ Z
 
 これの期待値を求めたい。つまり、ベクトル $`\vec{a}, \vec{b}, \vec{c}`$ をランダムに回転させた後のそれぞれのベクトルの $`z`$ 成分の絶対値の和の期待値を求めたい。
 まずは $`|\alpha_z|`$ の期待値を求める。$`z`$　座標の値しか見ないので、平面 $`y = 0`$（$`x`$ 軸と $`z`$ 軸の二軸の面）で切った二次元平面だけ考えれば良い。
-そうすると、
-```math
-\begin{align}
-E[|\alpha_z|]
-& = \int_0^{\pi} |\alpha| |\sin \theta| d\theta  / \int_0^{2\pi} d\theta
-& = |\alpha| \int_0^{\pi} |\sin \theta| d\theta \\
-& = |\alpha| \int_0^{\pi} \sin \theta  d\theta \\
-& = |\alpha| [-cos\theta]_0^{\pi}\\
-& = 2|\alpha| 
-\end{align}
-```
-
+そうすると、$`z`$ 座標は $`[0, |\alpha|]`$ 区間を一様に分布する。従って期待値は、$`\dfrac{1}{2} |\alpha|`$ となる。
 同様に、
 ```math
-E[|\beta_z|] = 2 | \beta
+E[|\beta_z|] = \dfrac{1}{2} |\beta|
+E[|\gamma_z|] = \dfrac{1}{2} |\gamma|
 
 ```
 
