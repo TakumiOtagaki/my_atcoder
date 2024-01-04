@@ -126,6 +126,7 @@ E[Z]
 となる。
 
 答えは、
+
 $`E[Z] = \dfrac{1}{2} \left(\sqrt{A^2 + B^2 + C^2}+ \sqrt{D^2 + E^2 + F^2}+ \sqrt{G^2 + H^2 + I^2}\right)`$
 
 
