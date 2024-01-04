@@ -102,6 +102,7 @@ Z
 まずは $`|\alpha_z|`$ の期待値を求める。$`z`$　座標の値しか見ないので、平面 $`y = 0`$（$`x`$ 軸と $`z`$ 軸の二軸の面）で切った二次元平面だけ考えれば良い。
 そうすると、$`z`$ 座標は $`[0, |\alpha|]`$ 区間を一様に分布する。従って期待値は、$`\dfrac{1}{2} |\alpha|`$ となる。
 同様に、
+
 ```math
 \begin{align}
 E[|\beta_z|] &= \dfrac{1}{2} |\beta| \\
@@ -111,9 +112,11 @@ E[|\gamma_z|] &= \dfrac{1}{2} |\gamma|
 
 従って、
 ```math
+\begin{align}
 E[Z]
 & = \dfrac{1}{2} |\alpha| + \dfrac{1}{2} |\beta| + \dfrac{1}{2} |\gamma|
 & = \dfrac{1}{2} ( |\alpha| + |\beta| + |\gamma| )
+\end{align}
 ```
 
 
