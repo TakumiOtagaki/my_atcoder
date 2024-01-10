@@ -10,7 +10,9 @@
     # 部品 x と x-1 は、縦横に隣り合うマスに載せなくてはならない。
         # ななめは禁止する
 
-
+# point: 
+    # https://zoshigayan.net/i-had-misunderstood-slice/
+    # k 個のスライスは O(k) かかる。
 # 入力
     # N
 
