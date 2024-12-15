@@ -6,12 +6,12 @@
 # x_1, x_2, ..., x_D の分散の最小値を求める。
 
 # ----------- 解答 ------------
-
+import sys
 N, D = map(int, input().split())
 W = list(map(int, input().split()))
 
 
-print(W)
+# print(W)
 
 # 平均値は
 # ave(x) = sum(x_i) / D = sum(W) / D である。
@@ -28,6 +28,18 @@ x_ave = sum(W) / D
         # = argmin_{x} ave(x^2) - (ave(x))^2
         # = argmin_{x} ave(x^2) - ave(x)^2
         # = argmin_{x} ave(x^2)
+        # = argmin_{x} sum(x^2)
 
 # 2 <= D <= N <= 15 であり、割と小さい。効率的に全探索したい。
-# 最小にしたいのは、ave(x^2) である。
+# 最小にしたいのは、sum(x^2) である。
+# 拘束条件は、sum(x_i) = sum(W) である。
+
+# 組み分けの全探索をする。
+# W を D 個に分ける。
+
+import itertools
+for w_shuffled in itertools.permutations(W):
+    # 先頭から y_1, y_2, ..., y_D に分ける。
+    # ただし、1 <= y_1 <= y_2 <= ... <= y_D かつ、y_1 + y_2 + ... + y_D = N とする。
+    pass
+
